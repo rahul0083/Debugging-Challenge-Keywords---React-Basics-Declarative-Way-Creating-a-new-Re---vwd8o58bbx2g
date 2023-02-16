@@ -13,11 +13,9 @@ const App = () => {
 
   return (
     <div className="ball">
-      <h1 className="count" ondoubleclick={ondoubleclick}>{count}</h1>
-      <button className='increment-button' onclick={onClick }>Increment</button>
+      <h1 className="count" onDoubleClick={ondoubleclick}>{count}</h1>
+      <button className='increment-button' onClick={onClick}>Increment</button>
     </div>
   )
 }
-
-
 export default App;
